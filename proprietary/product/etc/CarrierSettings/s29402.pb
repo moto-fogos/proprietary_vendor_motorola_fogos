@@ -1,5 +1,5 @@
 
-s29402╪м╗вРH
+s29402Д┤взРH
 CosmofonInternet2http://wap.planet.mk:8080BInternetJInternetD
 Cosmofon MMSmmsZhttp://195.167.65.220:8002b10.10.10.20j8080"Ё
 maxImageHeightШ

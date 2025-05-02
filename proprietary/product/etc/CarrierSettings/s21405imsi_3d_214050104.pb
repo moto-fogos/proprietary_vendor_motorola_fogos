@@ -1,9 +1,12 @@
 
-s21405imsi_3d_214050104Ø¬»¢zf
+s21405imsi_3d_214050104„´¢§zf
 Movistartelefonica.esB
 telefonicaJ
 telefonicaPZhttp://mms.movistar.comb10.138.255.5j8080p
-IMSIMSpx"Ê#
+IMSIMSpx"Š 
+allow_merging_rtt_calls_bool( 
+carrier_volte_available_bool( 
+ignore_rtt_mode_setting_bool(#
 moto_data_stall_check_count_int22
 moto_data_stall_config_stringrsrp=-108,sinr=-1
 moto_smart_5g_enabled_bool( 
@@ -29,6 +32,9 @@ telefonicaPZhttp://mms.movistar.comb10.138.255.5j8080p
 214018
 214019
 214020
-214021"
+214021 
+rtt_downgrade_supported_bool(
+rtt_supported_bool(
+rtt_upgrade_supported_bool("
 show_4g_for_lte_data_icon_bool(
 smsUsesSimpleCharactersOnly(

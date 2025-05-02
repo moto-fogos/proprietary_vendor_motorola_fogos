@@ -1,5 +1,5 @@
 
-s53703Ø¬»¢0.
+s53703„´¢§0.
 Digicel PNGinternet.digicelpng.compx"þ
 maxImageHeight˜
 maxImageWidth #

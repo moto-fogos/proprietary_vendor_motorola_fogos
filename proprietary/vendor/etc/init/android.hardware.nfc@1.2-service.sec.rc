@@ -7,3 +7,5 @@ service vendor.samsung_nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-s
     user nfc
     group nfc
     disabled
+    # Motorola, pradofam, 24/01/2025, IKSWV-60614, add shutdown critical
+    shutdown critical

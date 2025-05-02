@@ -2648,7 +2648,7 @@
 		</mappings>
 	</device>
 
-	<device name="fogo" version="1.4">
+	<device name="fogo" version="1.5">
 
 		<!-- Features list variable hardware components for this device -->
 		<features>
@@ -2740,6 +2740,7 @@
 			<string name="frontcolor/.system">ro.vendor.hw.</string>
 			<string-array name="frontcolor/.range">
 				<item>sedonasage</item>
+				<item>blackbeauty</item>
 				<item>other</item>
 			</string-array>
 
