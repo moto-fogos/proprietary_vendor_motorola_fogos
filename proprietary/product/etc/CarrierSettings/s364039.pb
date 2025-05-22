@@ -1,5 +1,5 @@
 
-s364039Д┤вз"ъ 
+s364039ш┤вз"ъ 
 carrier_volte_available_bool(
 carrier_vt_available_bool("
 carrier_wfc_ims_available_bool(&
