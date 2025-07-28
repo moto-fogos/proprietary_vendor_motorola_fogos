@@ -1,5 +1,5 @@
 
-s26242ш┤вз
+s26242Д┤вз
 Truphonetruphone.com"и 
 allow_merging_rtt_calls_bool( 
 ignore_rtt_mode_setting_bool(

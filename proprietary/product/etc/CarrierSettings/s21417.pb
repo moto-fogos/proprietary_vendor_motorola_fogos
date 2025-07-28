@@ -1,5 +1,5 @@
 
-s21417ш┤вз"■ 
+s21417Д┤вз"■ 
 allow_merging_rtt_calls_bool( 
 carrier_volte_available_bool( 
 ignore_rtt_mode_setting_bool(#
