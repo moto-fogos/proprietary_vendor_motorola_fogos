@@ -3186,6 +3186,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/product/etc/permissions/privapp-permissions-com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.euicc.xml \
+    vendor/motorola/fogos/proprietary/recovery/root/vendor/firmware/ILITEK_FW:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW \
+    vendor/motorola/fogos/proprietary/recovery/root/vendor/firmware/chipone_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/chipone_firmware.bin \
     vendor/motorola/fogos/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/fogos/proprietary/vendor/etc/SVIConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig.xml \
     vendor/motorola/fogos/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -3265,12 +3267,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/firmware/ILITEK_FW:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW \
     vendor/motorola/fogos/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/fogos/proprietary/vendor/firmware/chipone_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/chipone_firmware.bin \
-    vendor/motorola/fogos/proprietary/vendor/firmware/csot_focal_test_limits.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_focal_test_limits.ini \
-    vendor/motorola/fogos/proprietary/vendor/firmware/focaltech_ts_fw_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_csot.bin \
     vendor/motorola/fogos/proprietary/vendor/firmware/fs1815.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs1815.fsm \
-    vendor/motorola/fogos/proprietary/vendor/firmware/goodix-tm-gt9916S-23051702-646483c4-fogos.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tm-gt9916S-23051702-646483c4-fogos.bin \
     vendor/motorola/fogos/proprietary/vendor/firmware/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn4v_firmware.bin \
-    vendor/motorola/fogos/proprietary/vendor/firmware/tm_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_goodix_cfg_group.bin \
     vendor/motorola/fogos/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_fogor_s5kjns_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_fogor_s5kjns_qtech.bin \
     vendor/motorola/fogos/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_fogor_sc202acs_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_fogor_sc202acs_sunny.bin \
     vendor/motorola/fogos/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_fogos_ov16a1q_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_fogos_ov16a1q_ofilm.bin \
