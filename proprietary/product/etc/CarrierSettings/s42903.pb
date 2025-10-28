@@ -1,5 +1,5 @@
 
-s42903ш┤вз
+s42903Д┤вз
 Sky/C-Phonedefault"з$
  carrier_supports_ss_over_ut_bool( 
 carrier_volte_available_bool(&

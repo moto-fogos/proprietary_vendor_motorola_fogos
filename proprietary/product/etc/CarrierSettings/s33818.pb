@@ -1,5 +1,5 @@
 
-s33818ш┤взp*
+s33818Д┤взp*
 Lime Internet PostpaidinternetPB
 Lime Postpaid MMS
 multimediaPZhttp://mmscb

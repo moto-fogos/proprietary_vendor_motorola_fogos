@@ -1,5 +1,5 @@
 
-s52025ш┤вз"В
+s52025Д┤вз"В
 maxImageHeightШ
 maxImageWidthа#
 moto_data_stall_check_count_int22

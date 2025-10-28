@@ -1,5 +1,5 @@
 
-s26210ш┤вз"О 
+s26210Д┤вз"О 
 allow_merging_rtt_calls_bool( 
 ignore_rtt_mode_setting_bool(
 maxImageHeightШ
