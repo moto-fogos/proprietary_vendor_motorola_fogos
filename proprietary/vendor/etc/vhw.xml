@@ -2793,7 +2793,7 @@
 		</mappings>
 	</device>
 
-	<device name="fogos" version="1.9">
+	<device name="fogos" version="2.0">
 
 		<!-- Features list variable hardware components for this device -->
 		<features>
@@ -2902,6 +2902,8 @@
 				<item>vivamagenta</item>
 				<item>bermuda</item>
 				<item>pinklavender</item>
+        			<item>dahilapurple</item>
+        			<item>moss</item>
 				<item>other</item>
 			</string-array>
 
