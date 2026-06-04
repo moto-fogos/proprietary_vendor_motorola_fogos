@@ -3822,6 +3822,7 @@ PRODUCT_PACKAGES += \
     libmdmcutback \
     libmdsprpc \
     libmfec \
+    libminkdescriptor \
     libminksocket \
     libmmcamera_bestats \
     libmmcamera_cac3 \
@@ -3841,6 +3842,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
+    liboemcrypto \
     libofflinedump \
     libofflinelog \
     libopencv \
@@ -3903,6 +3905,8 @@ PRODUCT_PACKAGES += \
     libtfestriping \
     libtime_genoff \
     libtinyxml2_1 \
+    libtrustedapploader \
+    libtzdrmgenprov \
     libvidhance \
     libwms \
     libwqe \
