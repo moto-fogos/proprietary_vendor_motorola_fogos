@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/motorola/fogos",
         "hardware/motorola",
         "hardware/qcom-caf/sm8350",
         "hardware/qcom-caf/wlan",
