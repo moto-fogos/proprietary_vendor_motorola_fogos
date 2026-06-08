@@ -3307,6 +3307,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/motorola/fogos/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.1-service.rc \
+    vendor/motorola/fogos/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/motorola/fogos/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
@@ -3327,6 +3329,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/media_blair/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_blair/video_system_specs.json \
+    vendor/motorola/fogos/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/motorola/fogos/proprietary/vendor/etc/media_holi/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_holi/video_system_specs.json \
     vendor/motorola/fogos/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
@@ -3490,7 +3493,10 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libc2d30_bltlib \
     libcdsprpc \
+    libdapparamstorage \
     libdiag \
+    libdlbpreg \
+    libdmshal \
     libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
@@ -3520,6 +3526,11 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libthermalclient \
+    libdlbvol \
+    libswdap \
+    libswgamedap \
+    vendor.dolby.hardware.dms@2.0 \
+    vendor.dolby.hardware.dms@2.1 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
@@ -3753,13 +3764,18 @@ PRODUCT_PACKAGES += \
     libcne \
     libcneapiclient \
     libcneoplookup \
+    libcodec2_soft_ac4dec \
+    libcodec2_soft_ddpdec \
+    libcodec2_store_dolby \
     libcom.qti.chinodeutils \
     libconfigdb \
     libcpion \
     libdataitems \
+    libdeccfg \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
+    libdlbdsservice \
     libdpmqmihal \
     libdpps \
     libdrmfs \
@@ -4094,6 +4110,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.dolby.hardware.dms.xml \
+    vendor.dolby.media.c2@1.0-service.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss@4.0-service.xml \
     adpl \
@@ -4115,6 +4133,8 @@ PRODUCT_PACKAGES += \
     motorola.hardware.camera.desktop@2.0-service \
     qcrilNrd \
     vendor.display.color@1.0-service \
+    vendor.dolby.hardware.dms@2.1-service \
+    vendor.dolby.media.c2@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.eid@1.0-service \
