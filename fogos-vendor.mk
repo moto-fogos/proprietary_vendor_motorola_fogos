@@ -3708,6 +3708,7 @@ PRODUCT_PACKAGES += \
     lib-rtpcommon \
     lib-rtpcore \
     lib-rtpsl \
+    libAncFaceDetect \
     libBST3DDNS \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
@@ -3721,6 +3722,7 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libaidenoiser \
     libaidenoiserv2 \
+    libancbase_fd \
     libaoa \
     libarcsoft_chi_utils \
     libarcsoft_portrait_super_night_se_raw \
