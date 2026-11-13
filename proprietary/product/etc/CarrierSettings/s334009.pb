@@ -1,5 +1,5 @@
 
-s334009Д┤вз"Ж
+s334009ш┤вз"Ж
 maxImageHeightШ
 maxImageWidthа
 maxMessageSizeА└%

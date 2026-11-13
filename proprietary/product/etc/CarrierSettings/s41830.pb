@@ -1,5 +1,5 @@
 
-s41830Д┤вз 
+s41830ш┤вз 
 ZainHURI - SNPTdefault"▓
 maxImageHeightШ
 maxImageWidthа

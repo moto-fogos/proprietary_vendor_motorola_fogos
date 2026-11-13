@@ -1,5 +1,5 @@
 
-s63089Д┤вз#!
+s63089ш┤вз#!
 Tigo Internet CDwap.tigo.cd"ьж
  carrier_certificate_string_array2Б
 b67affcda89e3193b1595036d7c6cdbe22be5ca24c9f6cf93fc6b48f91d7310d:com.orange.myorange.ocd,com.orange.phone.mea,com.orange.update?

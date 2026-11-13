@@ -1,5 +1,5 @@
 
-s23877Д┤взf 
+s23877ш┤взf 
 Telenor InternetInternetB
 Telenor MMStelenorZhttp://mms.telenor.dkb212.88.64.8j8080"О 
 allow_merging_rtt_calls_bool($
