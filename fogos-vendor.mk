@@ -3448,6 +3448,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/motorola/fogos/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/motorola/fogos/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
+    vendor/motorola/fogos/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-camera.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-game-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-game-normal.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-game-perf.conf \
@@ -3858,12 +3859,14 @@ PRODUCT_PACKAGES += \
     librcc \
     librcmask \
     libremosaic_wrapper \
+    libremosaiclib \
     libril-db \
     libril-qc-ltedirectdisc \
     libril-qc-radioconfig \
     libril-qcril-hook-oem \
     librilqmimiscservices \
     librilqmiservices \
+    librmsclib1 \
     librpmb \
     libsdm-color \
     libsdm-colormgr-algo \
